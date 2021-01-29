@@ -1,0 +1,51 @@
+<html>
+
+<div id="face">
+    <div id="eye1"></div>
+    <div id="eye2"></div>
+    <div id="mouth"></div>
+</div>
+<style>
+    body {
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30%;
+    }
+    
+    div {
+        border: 2px solid #000;
+    }
+    
+    #face {
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+        align-items: center;
+        display: flex;
+    }
+    
+    #mouth {
+        width: 100px;
+        border-radius: 200px;
+        transform: translate(20px, 45px);
+    }
+    
+    #eye1,
+    #eye2 {
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+    }
+    
+    #eye1 {
+        transform: translate(50px, -30px);
+    }
+    
+    #eye2 {
+        transform: translate(120px, -30px);
+    }
+</style>
+
+</html>
