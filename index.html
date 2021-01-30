@@ -26,12 +26,20 @@
     
     #mouth {
         width: 90px;
-        height: 60px;
+        height: 40px;
         border-radius: 50%;
         position: relative;
         left: 25px;
-        top: 40px;
-        border-bottom: 5px solid #000;
+        top: 25px;
+        border-bottom: 2px solid #000;
+        /* border-top: 5px solid #000; */
+        transition: border-bottom 2s;
+    }
+    
+    #mouth:hover {
+        border-top: 3px solid #000;
+        border-bottom: none;
+        transition: border-top 1s;
     }
     
     #eye1,
